@@ -12,15 +12,15 @@ Catmandu::Fix::cmd - pipe data to be fixed through an external process
 
 =head1 VERSION
 
-Version 0.01
+Version 0.0101
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.0101';
 
 =head1 DESCRIPTION
 
-This fix passes as JSON object to the external process over stdin and
+This fix passes data as a JSON object to an external process over stdin and
 reads a JSON object from it's stdout.
 
 =head1 SYNOPSIS
