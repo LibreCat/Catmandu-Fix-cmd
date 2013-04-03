@@ -3,6 +3,6 @@
 local json = require ("dkjson")
 
 for line in io.lines() do
-    local obj, pos, err = json.decode (line, 1, nil)
+    local obj, pos, err = json.decode(line, 1, nil)
     print(json.encode(obj))
 end
