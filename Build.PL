@@ -19,7 +19,7 @@ my $builder = Module::Build->new(
         'Catmandu' => '0.1',
         'IO::Pty::Easy' => '0.09',
         'JSON::XS' => '2.3',
-        'namespace::clean' = >'0.24',
+        'namespace::clean' => '0.24',
     },
     add_to_cleanup => [qw(
         Catmandu-Fix-cmd-*
