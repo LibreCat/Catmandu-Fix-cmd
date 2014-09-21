@@ -1,5 +1,8 @@
 Revision history for Catmandu-Fix-cmd
 
+{{$NEXT}}
+  -  migrated to Dist::Milla
+
 0.0201  2013-06-21
   - add missing namespace::clean dependency
 
