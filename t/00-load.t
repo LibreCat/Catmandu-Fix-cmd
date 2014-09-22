@@ -1,13 +1,7 @@
-#!/usr/bin/env perl
-
 use strict;
 use warnings;
 use Test::More;
 
-my $pkg;
-BEGIN {
-    $pkg = 'Catmandu::Fix::cmd';
-    use_ok $pkg;
-}
+use_ok 'Catmandu::Fix::cmd';
 
-done_testing 1;
+done_testing;
